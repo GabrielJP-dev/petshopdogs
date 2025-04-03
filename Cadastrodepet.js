@@ -19,9 +19,9 @@ function Exibir() {
     for (var index = 0; index < bancoPets.length; index++) {
       if (idPessoa == bancoPets[index].pessoa) {
         if (bancoPets[index].especie == "Cachorro") {
-          img = "../src/imagens/puppy.png";
+          img = "imagens/puppy.png";
         } else {
-          img = "../src/imagens/cat main.png";
+          img = "imagens/cat main.png";
         }
         cards += `
                     <div class="card mt-5 mx-5" id="card" style = "width: 550px;">
